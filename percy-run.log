@@ -1,0 +1,300 @@
+Heads up! The next major version of @percy/cli will require Node 20+. Either pin @percy/cli to its current major version, or make sure your setup runs on Node 20+, before the next major release.
+
+[percy] A new version of @percy/cli is available! [91m1.32.11[39m -> [32m1.32.12[39m
+
+[percy] Notice: Percy collects CI logs to improve service and enhance your experience. These logs help us debug issues and provide insights on your dashboards, making it easier to optimize the product experience. Logs are stored securely for 30 days. You can opt out anytime with export PERCY_CLIENT_ERROR_LOGS=false, but keeping this enabled helps us offer the best support and features.
+[percy] Percy has started!
+[percy] Running "npx browserstack-node-sdk playwright test tests/visual.spec.js"
+2026-10-26 19:39:43 - [32minfo[39m: Reading configs from /Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/browserstack.yml
+2026-10-26 19:39:43 - [32minfo[39m: Log Directory has been set to /Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/log
+2026-10-26 19:39:43 - [32minfo[39m: Running SDK with args /Users/nithyamani/.nvm/versions/node/v24.5.0/bin/node /Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/node_modules/.bin/browserstack-node-sdk playwright test tests/visual.spec.js
+2026-10-26 19:39:43 - [32minfo[39m: SDK run started with id: 6ff3b05a-2a7d-482a-b697-b629c378a5f1
+2026-10-26 19:39:43 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-10-26 19:39:46 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-10-26 19:39:46 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/nithyamani/.browserstack/cli/binary-macos-arm64
+2026-10-26 19:39:48 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/nithyamani/.browserstack/cli/binary-macos-arm64,sdk'
+2026-10-26 19:39:48 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"0947e3dc-12a5-4f60-82d7-30afcbe06012","listen":"unix:/tmp/sdk-platform-0947e3dc-12a5-4f60-82d7-30afcbe06012.sock"}
+2026-10-26 19:39:48 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-0947e3dc-12a5-4f60-82d7-30afcbe06012.sock
+2026-10-26 19:39:48 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 0947e3dc-12a5-4f60-82d7-30afcbe06012 and listen address: unix:/tmp/sdk-platform-0947e3dc-12a5-4f60-82d7-30afcbe06012.sock
+2026-10-26 19:39:48 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-10-26 19:39:48 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","tests/visual.spec.js"], parsedConfig=[]
+2026-10-26 19:39:51 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-10-26 19:39:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-26 19:39:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0947e3dc-12a5-4f60-82d7-30afcbe06012
+2026-10-26 19:39:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-26 19:39:51 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","tests/visual.spec.js"]
+2026-10-26 19:39:51 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-10-26 19:39:51 - [33mwarn[39m: SDK-GEN-004: [ClientTroubleShootingService] The environment variable(s) GLOBAL_AGENT_HTTP_PROXY are internally used by the BrowserStack SDK. Please use a different environment variable name, or contact BrowserStack support if you need assistance.
+2026-10-26 19:39:51 - [33mwarn[39m: SDK-GEN-004: [ClientTroubleShootingService] The environment variable(s) GLOBAL_AGENT_NO_PROXY are internally used by the BrowserStack SDK. Please use a different environment variable name, or contact BrowserStack support if you need assistance.
+2026-10-26 19:39:54 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0947e3dc-12a5-4f60-82d7-30afcbe06012
+2026-10-26 19:39:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-0947e3dc-12a5-4f60-82d7-30afcbe06012.sock
+2026-10-26 19:39:54 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-10-26 19:39:54 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-10-26 19:39:54 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-10-26 19:39:54 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0947e3dc-12a5-4f60-82d7-30afcbe06012
+2026-10-26 19:39:54 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-10-26 19:39:54 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+◇ injected env (0) from .env
+2026-10-26 19:39:54 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-10-26 19:39:54 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-10-26 19:39:54 - [33mwarn[39m: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+
+Running 4 tests using 1 worker
+
+2026-10-26 19:39:54 - [32minfo[39m: Setting up TestInfo directory at /Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/log/.obs_test_details-k5zocsospzgius3uwt2t3xdsjusks5um0pqhj4sh
+2026-10-26 19:39:54 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=71783:0, state=TestFrameworkState.INIT_TEST
+2026-10-26 19:39:54 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=4cb77f6e8bb0d0fcc7eb7ffed52e5028bfba6b2560c7bfab8584c80a9853a957 target=71783:0
+2026-10-26 19:39:56 - info: [BrowserstackCLI] Starting as child process with session ID: 0947e3dc-12a5-4f60-82d7-30afcbe06012
+2026-10-26 19:39:56 - info: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-0947e3dc-12a5-4f60-82d7-30afcbe06012.sock
+2026-10-26 19:39:56 - info: [GrpcClient] Connecting bin session
+2026-10-26 19:39:56 - info: [GrpcClient] ConnectBinSession successful
+2026-10-26 19:39:56 - info: [BrowserstackCLI] loadModules: Loading modules
+2026-10-26 19:39:56 - info: [BrowserstackCLI] loadModules: binSessionId=0947e3dc-12a5-4f60-82d7-30afcbe06012
+2026-10-26 19:39:56 - info: [BrowserstackCLI] loading Modules.
+2026-10-26 19:39:56 - info: [BrowserstackCLI] Accessibility success=false
+◇ injected env (0) from .env
+2026-10-26 19:39:56 - info: [GrpcClient] Getting Playwright config
+2026-10-26 19:39:56 - info: [GrpcClient] PlaywrightConfig request successful
+2026-10-26 19:39:56 - warn: [modifyPlaywrightConf] Playwright "video" and "trace" recording are not supported over BrowserStack remote sessions and have been disabled to prevent run failures. Session video is available on the BrowserStack Automate dashboard. The "screenshot" option is unaffected.
+2026-10-26 19:39:56 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:39:56 - info: [BrowserstackCLI] Starting as child process with session ID: 0947e3dc-12a5-4f60-82d7-30afcbe06012
+2026-10-26 19:39:56 - info: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-10-26 19:39:56 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:39:56 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=71790:0, state=AutomationFrameworkState.CREATE
+2026-10-26 19:39:56 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=627eec0d3abbe520e6a609b3f12cd6156460f334e346766f6995c69531200702 target=71790:0
+[percy] Proxying request https://api.github.com:443 failed: Error: Connection closed while sending request to upstream proxy
+[percy] Please check network connection, proxy and ensure that following domains are whitelisted: github.com, percy.io, storage.googleapis.com. In case you are an enterprise customer make sure to whitelist "percy-enterprise.browserstack.com" as well.
+2026-10-26 19:40:08 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:08 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:08 - info: [GrpcClient] Sending DriverInit
+2026-10-26 19:40:08 - info: [GrpcClient] DriverInit request successful
+2026-10-26 19:40:08 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:09 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:09 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:40:09 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:40:10 - info: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+[[95mpercy[39m] [Homepage] : Starting automate screenshot capture ...
+[percy] Snapshot taken: Homepage
+2026-10-26 19:40:26 - info: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-26 19:40:26 - warn: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-26 19:40:26 - warn: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-26 19:40:26 - info: Accessibility testing for this test case has ended.
+2026-10-26 19:40:35 - info: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-26 19:40:35 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:35 - info: [PlaywrightDriverModule] testId: 19ca25ef9cb7f0c9b81c-11d2347fb9d93568765f
+2026-10-26 19:40:35 - info: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.64.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'e147cd81-1381-5b49-b5ba-9a9e47154d38',
+  test_result: 'pending',
+  automate_session_name: 'visual.spec.js - Visual: homepage',
+  test_file_path: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_id: '19ca25ef9cb7f0c9b81c-11d2347fb9d93568765f',
+  test_name: 'Visual: homepage',
+  test_location: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('/');\n" +
+    "  await expect(page.getByRole('heading', {\n" +
+    "    name: 'Featured Products'\n" +
+    '  })).toBeVisible();\n' +
+    "  await percyScreenshot(page, 'Homepage');\n" +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-26T14:09:56.732Z',
+  test_scope: 'visual.spec.js - Visual: homepage',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack visual.spec.js Visual: homepage'
+}
+2026-10-26 19:40:35 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:40:35 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:40:38 - info: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/22a02416a86f6398ae281eeb19c01aca04f48dbd.json status=passed name=visual.spec.js - Visual: homepage
+  ✓  1 [chrome-latest:Windows 11-browserstack] › tests/visual.spec.js:5:1 › Visual: homepage (31.7s)
+2026-10-26 19:40:39 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:40:39 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:40:39 - [32minfo[39m: getting screenshots results.
+2026-10-26 19:40:39 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-26 19:40:39 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-26 19:40:39 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:40:39 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:40:40 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:41 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:41 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:40:41 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:40:41 - info: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+[[95mpercy[39m] [Search results - denim] : Starting automate screenshot capture ...
+[percy] Snapshot taken: Search results - denim
+2026-10-26 19:40:52 - info: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-26 19:40:52 - warn: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-26 19:40:52 - warn: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-26 19:40:52 - info: Accessibility testing for this test case has ended.
+2026-10-26 19:40:57 - info: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-26 19:40:57 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:40:57 - info: [PlaywrightDriverModule] testId: 19ca25ef9cb7f0c9b81c-89acfdce0e67d763e318
+2026-10-26 19:40:57 - info: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.64.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'd61392b5-1114-5881-8dde-9e5645234278',
+  test_result: 'pending',
+  automate_session_name: 'visual.spec.js - Visual: search results',
+  test_file_path: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_id: '19ca25ef9cb7f0c9b81c-89acfdce0e67d763e318',
+  test_name: 'Visual: search results',
+  test_location: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('/');\n" +
+    "  const search = page.getByPlaceholder('Search...');\n" +
+    "  await search.fill('denim');\n" +
+    "  await search.press('Enter');\n" +
+    "  await expect(page.getByRole('heading', {\n" +
+    "    name: 'Search Results'\n" +
+    '  })).toBeVisible();\n' +
+    "  await expect(page.getByRole('heading', {\n" +
+    "    name: 'Denim Jacket'\n" +
+    '  })).toBeVisible();\n' +
+    "  await percyScreenshot(page, 'Search results - denim');\n" +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-26T14:10:39.800Z',
+  test_scope: 'visual.spec.js - Visual: search results',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack visual.spec.js Visual: search results'
+}
+2026-10-26 19:40:57 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:40:57 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:41:00 - info: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/22a02416a86f6398ae281eeb19c01aca04f48dbd.json status=passed name=visual.spec.js - Visual: search results
+  ✓  2 [chrome-latest:Windows 11-browserstack] › tests/visual.spec.js:11:1 › Visual: search results (22.3s)
+2026-10-26 19:41:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:41:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:41:02 - [32minfo[39m: getting screenshots results.
+2026-10-26 19:41:02 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-26 19:41:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-26 19:41:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:41:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:41:02 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:41:03 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:41:03 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:41:03 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:41:03 - info: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+[[95mpercy[39m] [Product details - Essential Cotton Tee] : Starting automate screenshot capture ...
+[percy] Snapshot taken: Product details - Essential Cotton Tee
+2026-10-26 19:41:13 - info: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-26 19:41:13 - warn: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-26 19:41:13 - warn: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-26 19:41:13 - info: Accessibility testing for this test case has ended.
+2026-10-26 19:41:18 - info: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-26 19:41:18 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:41:18 - info: [PlaywrightDriverModule] testId: 19ca25ef9cb7f0c9b81c-15a0b4e6cde983dc6026
+2026-10-26 19:41:18 - info: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.64.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '0abd6379-af7c-50f6-b97a-6a07c5e20fc9',
+  test_result: 'pending',
+  automate_session_name: 'visual.spec.js - Visual: product details',
+  test_file_path: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_id: '19ca25ef9cb7f0c9b81c-15a0b4e6cde983dc6026',
+  test_name: 'Visual: product details',
+  test_location: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    '  await openCottonTee(page);\n' +
+    "  await percyScreenshot(page, 'Product details - Essential Cotton Tee');\n" +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-26T14:11:02.157Z',
+  test_scope: 'visual.spec.js - Visual: product details',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack visual.spec.js Visual: product details'
+}
+2026-10-26 19:41:18 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:41:18 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:41:20 - info: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/22a02416a86f6398ae281eeb19c01aca04f48dbd.json status=passed name=visual.spec.js - Visual: product details
+  ✓  3 [chrome-latest:Windows 11-browserstack] › tests/visual.spec.js:21:1 › Visual: product details (19.5s)
+2026-10-26 19:41:21 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:41:21 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:41:21 - [32minfo[39m: getting screenshots results.
+2026-10-26 19:41:21 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-26 19:41:21 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-26 19:41:21 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:41:21 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-10-26 19:41:22 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:41:22 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:41:22 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:41:22 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:41:23 - info: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+[[95mpercy[39m] [Shopping cart] : Starting automate screenshot capture ...
+[percy] Snapshot taken: Shopping cart
+2026-10-26 19:41:34 - info: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-10-26 19:41:34 - warn: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-10-26 19:41:34 - warn: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-10-26 19:41:34 - info: Accessibility testing for this test case has ended.
+2026-10-26 19:41:38 - info: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-10-26 19:41:38 - info: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-10-26 19:41:38 - info: [PlaywrightDriverModule] testId: 19ca25ef9cb7f0c9b81c-f2ce1c2305e007ef7bd7
+2026-10-26 19:41:38 - info: [PlaywrightDriverModule] testData from onAfterTest: {
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.64.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '8a2c6c33-9893-5392-b17c-d4e8d1272cf4',
+  test_result: 'pending',
+  automate_session_name: 'visual.spec.js - Visual: shopping cart',
+  test_file_path: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_id: '19ca25ef9cb7f0c9b81c-f2ce1c2305e007ef7bd7',
+  test_name: 'Visual: shopping cart',
+  test_location: '/Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/tests/visual.spec.js',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    '  await addTeeToCartAndOpenCart(page);\n' +
+    "  await percyScreenshot(page, 'Shopping cart');\n" +
+    '}',
+  test_tags: [],
+  test_started_at: '2026-10-26T14:11:21.684Z',
+  test_scope: 'visual.spec.js - Visual: shopping cart',
+  test_scopes: [],
+  test_rerun_name: ' chrome-latest:Windows 11-browserstack visual.spec.js Visual: shopping cart'
+}
+2026-10-26 19:41:38 - info: [GrpcClient] Sending TestSessionEvent
+2026-10-26 19:41:38 - info: [GrpcClient] TestSessionEvent request successful
+2026-10-26 19:41:41 - info: [PlaywrightDriverModule] markSessionStatusViaRestApi: PUT https://api.browserstack.com/automate/sessions/22a02416a86f6398ae281eeb19c01aca04f48dbd.json status=passed name=visual.spec.js - Visual: shopping cart
+  ✓  4 [chrome-latest:Windows 11-browserstack] › tests/visual.spec.js:26:1 › Visual: shopping cart (20.8s)
+2026-10-26 19:41:42 - [32minfo[39m: getting screenshots results.
+2026-10-26 19:41:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-10-26 19:41:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-10-26 19:41:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-10-26 19:41:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+
+  4 passed (1.8m)
+2026-10-26 19:41:42 - [33mwarn[39m: [ClientTroubleShootingService] Uh-oh! We detected some issues during this run. Error codes: SDK-GEN-004. For details and troubleshooting steps, visit https://www.browserstack.com/docs/test-reporting-and-analytics/sdk-troubleshooting/error-codes?ref=sdk
+2026-10-26 19:41:42 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-10-26 19:41:42 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-10-26 19:41:46 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-10-26 19:41:46 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/7e4fe091ccff03b05937105789376ad7515ee2ac hashed_id=7e4fe091ccff03b05937105789376ad7515ee2ac o11y_uuid=k5zocsospzgius3uwt2t3xdsjusks5um0pqhj4sh
+2026-10-26 19:41:46 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-10-26 19:41:46 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-10-26 19:41:51 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-10-26 19:41:51 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-10-26 19:41:51 - [32minfo[39m: Visit https://automation.browserstack.com/builds/k5zocsospzgius3uwt2t3xdsjusks5um0pqhj4sh to view build report, insights, and many more debugging information all at one place!
+
+2026-10-26 19:41:52 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7e4fe091ccff03b05937105789376ad7515ee2ac
+2026-10-26 19:41:53 - [32minfo[39m: SDK run ended for id: 6ff3b05a-2a7d-482a-b697-b629c378a5f1, testhub id: k5zocsospzgius3uwt2t3xdsjusks5um0pqhj4sh
+2026-10-26 19:41:58 - [32minfo[39m: Deleting /Users/nithyamani/Desktop/CustomerProjects/Sonepar/ecomm-tc-demo/playwright-browserstack-sdk.config.js
+2026-10-26 19:41:58 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+[percy] Finalized build #13: https://percy.io/9560f98d/web/FashionStack-Ecommerce-651326d7/builds/54920282
+[percy] Build's CLI and CI logs sent successfully. Please share this log ID with Percy team in case of any issues - 54920282_build_54920282_cli_c09e3c0bd720857dec6c698ec9ee55fdfbc343e4
+[percy] Command "npx browserstack-node-sdk playwright test tests/visual.spec.js" exited with status: 0
